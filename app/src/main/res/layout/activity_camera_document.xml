@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cameraDocumentActivity">
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/gradientbutton"
+        android:fontFamily="@font/sfprodisplaymedium"
+        android:stateListAnimator="@null"
+        android:text="@string/escanear"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expirationDateEditext"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.camerakit.CameraKitView
+        android:id="@+id/camera"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="55dp"
+        android:adjustViewBounds="true"
+        android:keepScreenOn="true"
+        android:background="@drawable/roundedcorners"
+
+        app:camera_facing="back"
+        app:camera_flash="auto"
+        app:camera_focus="continuous"
+        app:camera_permissions="camera"
+        app:layout_constraintBottom_toTopOf="@+id/scanButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/viewSignature"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/detectionarea"
+        android:padding="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/camera"
+        app:layout_constraintEnd_toEndOf="@+id/camera"
+        app:layout_constraintStart_toStartOf="@+id/camera"
+        app:layout_constraintTop_toTopOf="@+id/camera" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/sfprodisplayregular"
+        android:text="@string/escanea_tu_documento"
+        android:textAlignment="center"
+        android:textColor="#00429A"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="62dp"
+        android:fontFamily="@font/sfprodisplayregular"
+        android:text="@string/por_el_lado_de_la_foto"
+        android:textAlignment="center"
+        android:textColor="#00429A"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="124dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="144dp"
+        app:srcCompat="@drawable/chekinkeylogo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        app:srcCompat="@drawable/stepnumber2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/camera"
+        app:layout_constraintLeft_toLeftOf="@id/camera"
+        app:layout_constraintRight_toRightOf="@id/camera"
+        app:layout_constraintTop_toTopOf="@id/camera"
+        android:background="@drawable/frame"
+        app:srcCompat="@color/defaultBackgroundColor" />
+
+    <ImageView
+        android:id="@+id/overlayImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@id/camera"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@id/camera"
+        app:layout_constraintRight_toRightOf="@id/camera"
+        app:layout_constraintTop_toTopOf="@id/camera"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@color/defaultBackgroundColor" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationCheck"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewSignature"
+        app:layout_constraintEnd_toEndOf="@+id/viewSignature"
+        app:layout_constraintStart_toStartOf="@+id/viewSignature"
+        app:layout_constraintTop_toTopOf="@+id/overlayImageView"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="checkanimation.json"
+        app:lottie_loop="false" />
+
+    <TextView
+        android:id="@+id/messageScanned"
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/sfprodisplayregular"
+        android:text="@string/escaneado_con_xito"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/overlayImageView"
+        app:layout_constraintEnd_toEndOf="@+id/viewSignature"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/viewSignature"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@drawable/dialog_bg"
+    android:minWidth="300dp"
+    android:minHeight="300dp"
+    android:orientation="vertical"
+    android:radius="6dip">
+
+
+    <TextView
+        android:id="@+id/bioMessageDialog5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/sfprodisplaylight"
+        android:text="@string/mujer"
+        android:textAlignment="center"
+        android:textColor="#81C3F8"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/femaleCircular"
+        app:layout_constraintStart_toStartOf="@+id/femaleCircular"
+        app:layout_constraintTop_toBottomOf="@+id/femaleCircular" />
+
+    <TextView
+        android:id="@+id/bioMessageDialog4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/sfprodisplaylight"
+        android:text="@string/hombre"
+        android:textAlignment="center"
+        android:textColor="#81C3F8"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/maleCircular"
+        app:layout_constraintStart_toStartOf="@+id/maleCircular"
+        app:layout_constraintTop_toBottomOf="@+id/maleCircular" />
+
+    <TextView
+        android:id="@+id/sexTitleDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/sfprodisplaymedium"
+        android:text="@string/sexo"
+        android:textAlignment="center"
+        android:textColor="#182E56"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/maleCircular"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/manicn"
+        app:civ_border_color="#00429A"
+        app:civ_border_width="1dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#00429A"
+        app:civ_shadow_radius="10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sexTitleDialog" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/femaleCircular"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/womanicn"
+        app:civ_border_color="#00429A"
+        app:civ_border_width="1dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#00429A"
+        app:civ_shadow_radius="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sexTitleDialog" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

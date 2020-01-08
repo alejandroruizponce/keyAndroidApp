@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Chekin Key</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    //Activity Main
+    <string name="tienes_alguna_duda">Any question?</string>
+
+    //Send verification
+    <string name="accede_a_tu_llave">GET YOUR KEY</string>
+    <string name="inserta_tu_email_abajo_y_te_enviaremos_las_instrucciones_para_que_recuperes_tu_contrase_a">Enter your phone number and we will send you a verification code to get your key:</string>
+    <string name="tu_tel_fono">Your phone</string>
+    <string name="enviar">SEND</string>
+
+    //Verification code
+    <string name="verificaci_n">VERIFICATION</string>
+    <string name="_34_616506980">+34 616506980</string>
+    <string name="introduce_el_c_digo_de_verificaci_n_que_hemos_enviado_al_tel_fono">Enter the verification code we have sent to your phone:</string>
+    <string name="no_has_recibido_el_c_digo">Have not you received the code?</string>
+    <string name="tu_c_digo">Your code</string>
+    <string name="reenviar">RESEND</string>
+    <string name="verificar">VERIFY</string>
+
+    //Dialog verification
+    <string name="verificado">VERIFIED!</string>
+    <string name="ya_puedes_disfrutar_de_tu_tus_llaves_pulsa_ok_y_accede_a_tus_reservas">Complete the registration once and you will not have to do it again. Press OK to start.</string>
+    <string name="ok">OK</string>
+
+    //SignUp
+    <string name="continuar">CONTINUE</string>
+    <string name="fecha_de_expedici_n">Expiration date</string>
+    <string name="num_c_digo_de_documento">Document code</string>
+    <string name="tipo_de_documento">Document type</string>
+    <string name="fecha_de_nacimiento">Birth date</string>
+    <string name="nacionalidad">Nationality</string>
+    <string name="sexo">Sex</string>
+    <string name="apellidos">Surname</string>
+    <string name="nombre">Name</string>
+    <string name="a_ade_tus_datos_personales">FILL OUT YOUR PERSONAL DETAILS</string>
+
+    //Document type dialog
+    <string name="p_residencia">R.Permit</string>
+    <string name="p_conducir">D.License</string>
+    <string name="pasaporte">Passport</string>
+    <string name="dni">ID Card</string>
+
+    //Sex dialog
+    <string name="mujer">Female</string>
+    <string name="hombre">Male</string>
+
+    //Scan document
+    <string name="escanear">SCAN</string>
+    <string name="escanea_tu_documento">SCAN YOUR DOCUMENT</string>
+    <string name="por_el_lado_de_la_foto">On the side of the photo.</string>
+    <string name="escaneado_con_xito">Successful scan</string>
+
+    //Selfie
+    <string name="repetir">REPEAT</string>
+    <string name="capturar">CAPTURE</string>
+    <string name="hazte_un_selfie">TAKE A SELFIE</string>
+
+    //Biomatching dialog
+    <string name="comparando">COMPARING...</string>
+    <string name="estamos_comparando_tu_documento_con_tu_selfie_por_favor_espera_unos_segundos">We are comparing your document with your selfie. Please, wait a few seconds.</string>
+
+    //Signature
+    <string name="repetir_firma">CLEAR SIGNATURE</string>
+    <string name="firma_en_el_recuadro_azul">Sign in the blue box.</string>
+    <string name="a_ade_tu_firma">ADD YOUR SIGNATURE</string>
+    <string name="aceptar_t_rminos_y_condiciones">Accept Terms and Conditions</string>
+
+    //Successful register
+    <string name="si_quieres_registrar_a_m_s_hu_spedes_comparte_este_link_o_reg_stralos_t_mismo">If you want to register more guests, share this link or register them yourself.</string>
+    <string name="accede_a_tus_llaves">GET YOUR KEYS</string>
+    <string name="compartir">SHARE</string>
+    <string name="enhorabuena_alex">CONGRATULATIONS, ALEX!</string>
+    <string name="registro_completado">REGISTER COMPLETED</string>
+
+    //Bookings
+    <string name="mis_reservas">MY BOOKINGS</string>
+    <string name="logout">Logout</string>
+
+    //Booking card
+
+
+    //Booking expanded
+    <string name="espa_a">Spain</string>
+    <string name="holiday_inn_hotel">Holiday Inn Hotel</string>
+    <string name="habitaci_n_124">Room 124</string>
+    <string name="puerta_principal">Main Door</string>
+    <string name="reservado_desde">BOOKED FROM:</string>
+    <string name="_22_09_2019_a_24_09_2019">09/22/2019 to 09/24/2019</string>
+
+    //Unlock dialog
+    <string name="abierta">¡OPEN!</string>
+    <string name="ya_puedes_abrir_la_puerta_de_tu_habitaci_n">The door is unlocked, you can enter now.</string>
+    <string name="abrir">Open</string>
+
+
+    <string name="failcomparing">We are sorry, but we have found an error when comparing your document with your selfie.</string>
+    <string name="repeat">REPEAT</string>
+    <string name="failvalidation">We are sorry, but the verification code is wrong.</string>
+
+
+
+</resources>

@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Chekin Key</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    //Activity Main
+    <string name="tienes_alguna_duda">¿Tienes alguna duda?</string>
+
+    //Send verification
+    <string name="accede_a_tu_llave">ACCEDE A TU LLAVE</string>
+    <string name="inserta_tu_email_abajo_y_te_enviaremos_las_instrucciones_para_que_recuperes_tu_contrase_a">Introduce tu número de teléfono y te enviaremos un código de verificación para obtener tu llave:</string>
+    <string name="tu_tel_fono">Tu teléfono</string>
+    <string name="enviar">ENVIAR</string>
+
+    //Verification code
+    <string name="verificaci_n">VERIFICACIÓN</string>
+    <string name="_34_616506980">+34 616506980</string>
+    <string name="introduce_el_c_digo_de_verificaci_n_que_hemos_enviado_al_tel_fono">Introduce el código de verificación que hemos enviado al teléfono:</string>
+    <string name="no_has_recibido_el_c_digo">¿No has recibido el código?</string>
+    <string name="tu_c_digo">Tu código</string>
+    <string name="reenviar">REENVIAR</string>
+    <string name="verificar">VERIFICAR</string>
+
+    //Dialog verification
+    <string name="verificado">¡VERIFICADO!</string>
+    <string name="ya_puedes_disfrutar_de_tu_tus_llaves_pulsa_ok_y_accede_a_tus_reservas">Ya puedes disfrutar de tu/tus llaves. Pulsa OK y accede a tus reservas.</string>
+    <string name="ok">OK</string>
+
+    //SignUp
+    <string name="continuar">CONTINUAR</string>
+    <string name="fecha_de_expedici_n">Fecha de expedición</string>
+    <string name="num_c_digo_de_documento">Num/Código de documento</string>
+    <string name="tipo_de_documento">Tipo de documento</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="nacionalidad">Nacionalidad</string>
+    <string name="sexo">Sexo</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="nombre">Nombre</string>
+    <string name="a_ade_tus_datos_personales">AÑADE TUS DATOS PERSONALES</string>
+
+    //Document type dialog
+    <string name="p_residencia">P. Residencia</string>
+    <string name="p_conducir">P. Conducir</string>
+    <string name="pasaporte">Pasaporte</string>
+    <string name="dni">DNI</string>
+
+    //Sex dialog
+    <string name="mujer">Mujer</string>
+    <string name="hombre">Hombre</string>
+
+    //Scan document
+    <string name="escanear">ESCANEAR</string>
+    <string name="escanea_tu_documento">ESCANEA TU DOCUMENTO</string>
+    <string name="por_el_lado_de_la_foto">Por el lado de la foto.</string>
+    <string name="escaneado_con_xito">Escaneado con éxito</string>
+
+    //Selfie
+    <string name="repetir">REPETIR</string>
+    <string name="capturar">CAPTURAR</string>
+    <string name="hazte_un_selfie">HAZTE UN SELFIE</string>
+
+    //Biomatching dialog
+    <string name="comparando">COMPARANDO...</string>
+    <string name="estamos_comparando_tu_documento_con_tu_selfie_por_favor_espera_unos_segundos">Estamos comparando tu documento con tu selfie. Por favor, espera unos segundos.</string>
+
+    //Signature
+    <string name="repetir_firma">REPETIR FIRMA</string>
+    <string name="firma_en_el_recuadro_azul">Firma en el recuadro azul.</string>
+    <string name="a_ade_tu_firma">AÑADE TU FIRMA</string>
+    <string name="aceptar_t_rminos_y_condiciones">Aceptar Términos y Condiciones</string>
+
+    //Successful register
+    <string name="si_quieres_registrar_a_m_s_hu_spedes_comparte_este_link_o_reg_stralos_t_mismo">Si quieres registrar a más huéspedes, comparte este link o regístralos tú mismo.</string>
+    <string name="accede_a_tus_llaves">ACCEDE A TUS LLAVES</string>
+    <string name="compartir">COMPARTIR</string>
+    <string name="enhorabuena_alex">¡ENHORABUENA, ALEX!</string>
+    <string name="registro_completado">REGISTRO COMPLETADO</string>
+
+    //Bookings
+    <string name="mis_reservas">MIS RESERVAS</string>
+    <string name="logout">Logout</string>
+
+    //Booking card
+
+
+    //Booking expanded
+    <string name="espa_a">España</string>
+    <string name="holiday_inn_hotel">Holiday Inn Hotel</string>
+    <string name="habitaci_n_124">Habitación 124</string>
+    <string name="puerta_principal">Puerta Principal</string>
+    <string name="reservado_desde">RESERVADO DESDE:</string>
+    <string name="_22_09_2019_a_24_09_2019">22/09/2019 a 24/09/2019</string>
+
+    //Unlock dialog
+    <string name="abierta">¡ABIERTA!</string>
+    <string name="ya_puedes_abrir_la_puerta_de_tu_habitaci_n">Ya puedes abrir la puerta de tu habitación.</string>
+    <string name="abrir">Abrir</string>
+
+
+    <string name="failcomparing">Lo siento. No hemos podido verificar tu identidad. Haz otra foto.</string>
+    <string name="repeat">REPETIR</string>
+    <string name="failvalidation">Lo sentimos, pero el código de verificación no es correcto.</string>
+
+
+</resources>

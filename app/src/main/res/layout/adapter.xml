@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="60dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageHotel"
+                android:layout_width="0dp"
+                android:layout_height="165dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/hotelexample" />
+
+            <TextView
+                android:id="@+id/nameHotelTextView"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="158dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/sfprodisplayheavy"
+                android:text="@string/holiday_inn_hotel"
+                android:textAlignment="center"
+                android:textColor="#2D508E"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageHotel" />
+
+            <TextView
+                android:id="@+id/MainDoorTextView2"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="83dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/sfprodisplaymedium"
+                android:text="@string/puerta_principal"
+                android:textAlignment="center"
+                android:textColor="#2D508E"
+                android:textSize="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/locationHotelTextView" />
+
+            <TextView
+                android:id="@+id/open1TextView2"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="83dp"
+                android:layout_height="0dp"
+                android:fontFamily="@font/sfprodisplaylight"
+                android:text="@string/abrir"
+                android:textAlignment="center"
+                android:textColor="#81C3F8"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/MainDoorTextView2"
+                app:layout_constraintStart_toStartOf="@+id/MainDoorTextView2"
+                app:layout_constraintTop_toBottomOf="@+id/MainDoorTextView2" />
+
+            <TextView
+                android:id="@+id/open2TextView"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="83dp"
+                android:layout_height="0dp"
+                android:fontFamily="@font/sfprodisplaylight"
+                android:text="@string/abrir"
+                android:textAlignment="center"
+                android:textColor="#81C3F8"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/roomTextView"
+                app:layout_constraintStart_toStartOf="@+id/roomTextView"
+                app:layout_constraintTop_toBottomOf="@+id/roomTextView" />
+
+            <TextView
+                android:id="@+id/roomTextView"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="83dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/sfprodisplaymedium"
+                android:text="@string/habitaci_n_124"
+                android:textAlignment="center"
+                android:textColor="#2D508E"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/locationHotelTextView" />
+
+            <TextView
+                android:id="@+id/locationHotelTextView"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="158dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/sfprodisplaylight"
+                android:text="@string/espa_a"
+                android:textAlignment="center"
+                android:textColor="#81C3F8"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nameHotelTextView" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/keyimg"
+                android:elevation="7dp"
+                android:src="@drawable/key"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="@+id/MainDoorTextView2"
+                app:layout_constraintStart_toStartOf="@+id/MainDoorTextView2"
+                app:layout_constraintTop_toBottomOf="@+id/open1TextView2" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/keyimg"
+                android:elevation="7dp"
+                android:src="@drawable/key"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="@+id/roomTextView"
+                app:layout_constraintStart_toStartOf="@+id/roomTextView"
+                app:layout_constraintTop_toBottomOf="@+id/open2TextView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

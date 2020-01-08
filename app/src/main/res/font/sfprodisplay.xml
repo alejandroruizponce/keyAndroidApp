@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:fontStyle="normal"
+        android:font="@font/sfprodisplayblack" />
+    <font
+        android:fontStyle="italic"
+        android:font="@font/sfprodisplayblackitalic" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/sfprodisplaybold" />
+    <font
+        android:fontStyle="italic"
+        android:font="@font/sfprodisplaybolditalic" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/sfprodisplayheavy" />
+    <font
+        android:fontStyle="italic"
+        android:font="@font/sfprodisplayheavyitalic" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/sfprodisplaylight" />
+    <font
+        android:fontStyle="italic"
+        android:font="@font/sfprodisplaylightitalic" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/sfprodisplaymedium" />
+    <font
+        android:fontStyle="italic"
+        android:font="@font/sfprodisplaymediumitalic" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/sfprodisplayregular" />
+    <font
+        android:fontStyle="italic"
+        android:font="@font/sfprodisplayregularitalic" />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/sfprodisplaysemibold" />
+    <font
+        android:fontStyle="italic"
+        android:font="@font/sfprodisplaysemibolditalic" />
+</font-family>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    android:background="@drawable/dialog_bg"
+    android:minWidth="300dp"
+    android:minHeight="300dp"
+    android:orientation="vertical"
+    android:radius="6dip">
+
+
+    <ImageButton
+        android:id="@+id/ResidenceimageButton2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/defaultBackgroundColor"
+        android:scaleType="centerInside"
+        android:src="@drawable/residencecardicn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bioMessageDialog5" />
+
+    <TextView
+        android:id="@+id/bioMessageDialog7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/sfprodisplaylight"
+        android:text="@string/p_residencia"
+        android:textAlignment="center"
+        android:textColor="#81C3F8"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/ResidenceimageButton2"
+        app:layout_constraintStart_toStartOf="@+id/ResidenceimageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/ResidenceimageButton2" />
+
+    <ImageButton
+        android:id="@+id/DrivingimageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/defaultBackgroundColor"
+        android:scaleType="centerInside"
+        android:src="@drawable/driverlicenseicn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bioMessageDialog4" />
+
+    <TextView
+        android:id="@+id/bioMessageDialog6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/sfprodisplaylight"
+        android:text="@string/p_conducir"
+        android:textAlignment="center"
+        android:textColor="#81C3F8"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/DrivingimageButton"
+        app:layout_constraintStart_toStartOf="@+id/DrivingimageButton"
+        app:layout_constraintTop_toBottomOf="@+id/DrivingimageButton" />
+
+    <TextView
+        android:id="@+id/bioMessageDialog5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprodisplaylight"
+        android:text="@string/pasaporte"
+        android:textAlignment="center"
+        android:textColor="#81C3F8"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/PassportimageButton"
+        app:layout_constraintStart_toStartOf="@+id/PassportimageButton"
+        app:layout_constraintTop_toBottomOf="@+id/PassportimageButton" />
+
+    <TextView
+        android:id="@+id/bioMessageDialog4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprodisplaylight"
+        android:text="@string/dni"
+        android:textAlignment="center"
+        android:textColor="#81C3F8"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/DNIimageButton"
+        app:layout_constraintStart_toStartOf="@+id/DNIimageButton"
+        app:layout_constraintTop_toBottomOf="@+id/DNIimageButton" />
+
+    <TextView
+        android:id="@+id/sexTitleDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/sfprodisplaymedium"
+        android:text="@string/tipo_de_documento"
+        android:textAlignment="center"
+        android:textColor="#182E56"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/DNIimageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/defaultBackgroundColor"
+        android:scaleType="centerInside"
+        android:src="@drawable/idicn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sexTitleDialog" />
+
+    <ImageButton
+        android:id="@+id/PassportimageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/defaultBackgroundColor"
+        android:scaleType="centerInside"
+        android:src="@drawable/passporticn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sexTitleDialog" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

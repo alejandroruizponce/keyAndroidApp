@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@drawable/dialog_bg"
+    android:minWidth="300dp"
+    android:minHeight="300dp"
+    android:orientation="vertical"
+    android:radius="6dip">
+
+
+    <Button
+        android:id="@+id/dialogBioButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="110dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/sfprodisplaymedium"
+        android:text="@string/continuar"
+        android:textColor="#C674E8"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bioMessageDialog" />
+
+    <TextView
+        android:id="@+id/sexTitleDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/sfprodisplaybold"
+        android:text="@string/comparando"
+        android:textAlignment="center"
+        android:textColor="#182E56"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/openImageView" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationCheck"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/sexTitleDialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="biomatching.json"
+        app:lottie_loop="true" />
+
+
+    <TextView
+        android:id="@+id/bioMessageDialog"
+        android:layout_width="208dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/sfprodisplaylight"
+        android:text="@string/estamos_comparando_tu_documento_con_tu_selfie_por_favor_espera_unos_segundos"
+        android:textAlignment="center"
+        android:textColor="#2D508E"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sexTitleDialog" />
+
+    <ImageView
+        android:id="@+id/openImageView"
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/defaultBackgroundColor"
+        tools:srcCompat="@drawable/upsicon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
